@@ -95,7 +95,7 @@ async def start_command(client: Client, message: Message):
                 ]
             ]
         )
-        await message.reply_text(
+        await message.reply_photo(
         photo="https://telegra.ph/file/9b736a365bb0f62e7a70a.jpg",
             caption = START_MSG.format(
                 first = message.from_user.first_name,
